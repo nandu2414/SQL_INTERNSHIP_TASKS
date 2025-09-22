@@ -32,8 +32,7 @@ This project is a *relational database schema* for a Library Management System. 
 3. Insert sample data using the provided INSERT statements.  
 4. Perform queries like finding borrowed books, overdue books, etc.
 
-## Author
-Raju Bathini
+
 
 
 -----------------------------------------------------------TASK -1 ------------------------------------------------------
