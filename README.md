@@ -35,4 +35,52 @@ This project is a *relational database schema* for a Library Management System. 
 
 
 
------------------------------------------------------------TASK -1 ------------------------------------------------------
+-----------------------------------------------------------TASK -2 ------------------------------------------------------
+
+Data Insertion and Handling Nulls
+Overview
+This task focuses on practicing SQL commands for inserting, updating, and deleting data.  
+It also demonstrates handling missing values (`NULL`), using default values, and applying constraints to maintain data integrity.
+
+Features
+- Insert rows with full values, partial values, NULLs, and defaults.  
+- Update single or multiple rows based on conditions.  
+- Delete rows safely with conditions.  
+- Enforce NOT NULL and DEFAULT constraints.  
+- Use transactions to rollback accidental deletions.  
+
+Tables
+Students:  
+- RollNo (Primary Key)  
+- Name (NOT NULL)  
+- Gender  
+- Age (DEFAULT 18)  
+- Email  
+- Marks  
+
+Special Features
+- Supports partial inserts (missing columns take `NULL` or `DEFAULT`).  
+- Demonstrates safe update/delete practices.  
+- Includes handling of `IS NULL` conditions.  
+- Uses rollback in transactions for safe data recovery.  
+
+How to Use
+1. Create a database in MySQL/SQLite.  
+2. Run the `CREATE TABLE` script.  
+3. Insert sample data using `INSERT` statements.  
+4. Perform updates and deletes with `WHERE` conditions.  
+5. Test handling of NULL values and default constraints.  
+
+Example Queries
+```sql
+-- Insert with default age and NULL email
+INSERT INTO Students (RollNo, Name, Gender, Marks)
+VALUES (1, 'Nandu', 'M', 85);
+
+-- Update multiple rows
+UPDATE Students SET Age = 22 WHERE Gender = 'F';
+
+-- Delete rows with missing marks
+DELETE FROM Students WHERE Marks IS NULL;
+
+
