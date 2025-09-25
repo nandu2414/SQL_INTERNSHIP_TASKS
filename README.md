@@ -73,13 +73,14 @@ How to Use
 
 
 -----------------------------------------------------------TASK -3 ------------------------------------------------------
-
 Writing Basic SELECT Queries
+
+1. Overview
 
 This task focuses on practicing SQL commands for retrieving data from one or more tables.
 It demonstrates selecting all columns or specific ones, filtering rows with conditions, sorting results, and limiting the output.
 
-Features
+2. Features
 
 Select all columns or specific columns.
 
@@ -97,7 +98,7 @@ Retrieve unique values with DISTINCT.
 
 Apply aliasing for readability.
 
-Tables
+3. Tables
 
 Students:
 
@@ -111,7 +112,7 @@ City
 
 Marks
 
-Special Features
+4. Special Features
 
 Supports selecting all (*) or specific columns.
 
@@ -125,13 +126,13 @@ Explains aliasing (AS) and distinct results (DISTINCT).
 
 Covers interview-style examples with practical queries.
 
-How to Use
+5. How to Use
 
 Create a database in MySQL/SQLite.
 
-Run the CREATE TABLE script to create the Students table.
+Run the CREATE TABLE script.
 
-Insert sample data into the table.
+Insert sample data into the Students table.
 
 Execute the provided SELECT queries one by one.
 
