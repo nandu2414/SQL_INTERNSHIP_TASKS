@@ -72,65 +72,6 @@ How to Use
 5. Test handling of NULL values and default constraints.  
 
 
------------------------------------------------------------TASK -3 ------------------------------------------------------
-Writing Basic SELECT Queries
-
-1. Overview
-
-This task focuses on practicing SQL commands for retrieving data from one or more tables.
-It demonstrates selecting all columns or specific ones, filtering rows with conditions, sorting results, and limiting the output.
-
-2. Features
-
-Select all columns or specific columns.
-
-Filter rows using WHERE, AND, OR.
-
-Perform pattern matching with LIKE.
-
-Use BETWEEN for range filtering.
-
-Sort results with ORDER BY (ascending/descending).
-
-Limit the number of rows returned.
-
-Retrieve unique values with DISTINCT.
-
-Apply aliasing for readability.
-
-3. Tables
-
-Students:
-
-RollNo (Primary Key)
-
-Name
-
-Age
-
-City
-
-Marks
-
-4. Special Features
-
-Supports selecting all (*) or specific columns.
-
-Demonstrates filtering with operators (=, IN, BETWEEN, LIKE).
-
-Shows both ascending and descending sorting.
-
-Illustrates LIMIT for restricting output.
-
-Explains aliasing (AS) and distinct results (DISTINCT).
-
-Covers interview-style examples with practical queries.
-
-5. How to Use
-
-Create a database in MySQL/SQLite.
-
-Run the CREATE TABLE script.
 
 Insert sample data into the Students table.
 
