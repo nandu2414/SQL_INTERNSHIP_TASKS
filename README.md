@@ -71,17 +71,6 @@ How to Use
 4. Perform updates and deletes with `WHERE` conditions.  
 5. Test handling of NULL values and default constraints.  
 
-Example Queries
-```sql
--- Insert with default age and NULL email
-INSERT INTO Students (RollNo, Name, Gender, Marks)
-VALUES (1, 'Nandu', 'M', 85);
-
--- Update multiple rows
-UPDATE Students SET Age = 22 WHERE Gender = 'F';
-
--- Delete rows with missing marks
-DELETE FROM Students WHERE Marks IS NULL;
 
 -----------------------------------------------------------TASK -3 ------------------------------------------------------
 
