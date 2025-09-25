@@ -72,6 +72,7 @@ How to Use
 5. Test handling of NULL values and default constraints.  
 
 -----------------------------------------------------------TASK - 3 ------------------------------------------------------
+
 Writing Basic SELECT Queries
 1. Overview
 
