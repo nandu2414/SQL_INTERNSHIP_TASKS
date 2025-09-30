@@ -178,3 +178,47 @@ Insert sample data using INSERT statements.
 Perform aggregate queries to analyze and summarize data.
 
 Experiment with multiple column grouping and filtering with HAVING.
+
+
+-----------------------------------------------------------TASK -5 ------------------------------------------------------
+
+
+SQL Joins (Inner, Left, Right, Full) Database
+
+Overview
+This project is a relational database schema designed to demonstrate the use of SQL joins. It teaches how to combine data from multiple tables using various join types to produce meaningful results.
+
+1.Features
+
+Combine data from two or more related tables.
+
+Use different join types: INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
+
+Master merging data efficiently for reporting and analysis.
+
+Understand relationships between tables using primary and foreign keys.
+
+Explore self-joins, natural joins, and cross joins for advanced queries.
+
+2.Special Features
+
+Demonstrates merging of related tables for data analysis.
+
+Supports combining multiple tables in a single query.
+
+Illustrates various join types for different scenarios.
+
+Optimized for learning and practicing SQL joins.
+
+3.How to Use
+
+Create a MySQL or SQLite database.
+
+Run the CREATE TABLE scripts for related tables (e.g., Customers, Orders).
+
+Insert sample data using INSERT statements.
+
+Execute join queries to merge and analyze data.
+
+Experiment with different join types, nested joins, and joining multiple tables.
+
