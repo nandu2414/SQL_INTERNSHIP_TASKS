@@ -136,3 +136,43 @@ Insert sample data into the table.
 Execute the provided SELECT queries one by one.
 
 Observe the results for filtering, sorting, and limiting.
+-----------------------------------------------------------TASK -4 ------------------------------------------------------
+
+Aggregate Functions and Grouping Database
+
+Overview
+This project is a relational database schema designed to demonstrate the use of SQL aggregate functions and GROUP BY operations. It helps summarize numeric data and categorize it into meaningful groups for analysis.
+
+1.Features
+
+Apply aggregate functions such as SUM, COUNT, AVG, MAX, and MIN.
+
+Group data using GROUP BY and filter groups using HAVING.
+
+Round numeric results using ROUND().
+
+Count distinct values using COUNT(DISTINCT column).
+
+Supports grouping by single or multiple columns.
+
+2.Special Features
+
+Demonstrates aggregate functions for numeric analysis.
+
+Uses GROUP BY to categorize data.
+
+Filters aggregated results using HAVING.
+
+Supports grouping by single or multiple columns.
+
+3.How to Use
+
+Create a MySQL or SQLite database.
+
+Run the CREATE TABLE script for the database.
+
+Insert sample data using INSERT statements.
+
+Perform aggregate queries to analyze and summarize data.
+
+Experiment with multiple column grouping and filtering with HAVING.
