@@ -136,6 +136,7 @@ Insert sample data into the table.
 Execute the provided SELECT queries one by one.
 
 Observe the results for filtering, sorting, and limiting.
+
 -----------------------------------------------------------TASK -4 ------------------------------------------------------
 
 
